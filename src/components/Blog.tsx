@@ -55,14 +55,14 @@ export default function Blog() {
       };
       
      return(
-        <Wrap id="chosuleblog" ref={ref} className="flex-col md:flex-row">
+        <Wrap id="chosuleblog" ref={ref} className="flex-col articles-fade-in md:flex-row">
         <ImageWrap imageTop={chosuleblogimage} imageBottom={chosuleblogimage2}/>
         <TextWrap>
             <div className="flex flex-col gap-2">
               <Title>Next blog 프로젝트</Title>
               <IconLink gitLink="https://github.com/chosule/blog_next" siteLink="https://next-blog-delta-lac.vercel.app/"/>
             </div>
-            <Text className="leading-loose flex-[0.6]">
+            <Text className="leading-loose">
               <span className="strong">Next 14 App router</span>를 사용하여 저만의 글을 올릴수 있는 블로그 프로젝트 입니다. 
             </Text>
             <StackWrap stackItems={stackItems}/>

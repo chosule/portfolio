@@ -43,14 +43,6 @@ export default function WinterFoodies() {
             amount: 1,
           },
         });
-        gsap.to(".ani", {
-            y: -10, 
-            duration: 0.8, 
-            ease: "power1.inOut", 
-            yoyo: true, 
-            repeat: 3, 
-         });
-
       };
     
       const fadeOut = () => {
@@ -63,7 +55,7 @@ export default function WinterFoodies() {
       };
       
      return(
-        <Wrap id="winterfoodies" ref={ref} className="flex-col md:flex-row ">
+        <Wrap id="winterfoodies" ref={ref} className="flex-col articles-fade-in md:flex-row">
             <ImageWrap imageTop={winterfoodiesImg1} imageBottom={winterfoodiesImg1}/>
             <TextWrap>
               <div className="flex flex-col gap-2">

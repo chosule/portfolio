@@ -33,7 +33,7 @@ export default function AdService() {
   }, [inView]);
 
   const fadeIn = () => {
-    gsap.to(".animation", {
+    gsap.to(".articles-fade-in", {
       duration: 1,
       opacity: 1,
       y: 0,
@@ -45,7 +45,7 @@ export default function AdService() {
   };
 
   const fadeOut = () => {
-    gsap.to(".animation", {
+    gsap.to(".articles-fade-in", {
       duration: 1,
       opacity: 0,
       y: 100,
@@ -53,8 +53,9 @@ export default function AdService() {
     });
   };
   
+  
   return (
-    <Wrap id="adservice" ref={ref} className="animation w-full flex gap-10 flex-col md:flex-row">
+    <Wrap id="adservice" ref={ref} className="w-full flex gap-10 flex-col articles-fade-in md:flex-row">
           <ImageWrap imageTop={adservice_1} imageBottom={adservice_2}/>
           <TextWrap>
             <Title>Ad_service</Title>
