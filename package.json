@@ -16,7 +16,8 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.4",
-    "reactjs-popup": "^2.0.6"
+    "reactjs-popup": "^2.0.6",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
