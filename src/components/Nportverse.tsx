@@ -6,10 +6,10 @@ import Text from "./ui/Text";
 import TextWrap from "./ui/TextWrap";
 import Title from "./ui/Title";
 import Wrap from "./ui/Wrap";
-import bankonverse from "../../../public/img/bankonverse.png"
+import bankonverse from "../../public/img/bankonverse.png"
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import npikasite from "../../../public/img/npikasite.png"
+import npikasite from "../../public/img/npikasite.png"
 import gsap from "gsap";
 
 const stackItems = [

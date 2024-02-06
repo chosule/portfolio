@@ -4,8 +4,8 @@ import { useInView } from "react-intersection-observer";
 import gsap from "gsap";
 import Text from "./ui/Text";
 import Wrap from "./ui/Wrap";
-import adservice_1 from "../../../public/img/adservice_1.png"
-import adservice_2 from "../../../public/img/adservice_2.png"
+import adservice_2 from "../../public/img/adservice_2.png"
+import adservice_1 from "../../public/img/adservice_1.png"
 import Title from "./ui/Title";
 import ImageWrap from "./ui/ImageWrap";
 import TextWrap from "./ui/TextWrap";

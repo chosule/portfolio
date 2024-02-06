@@ -10,8 +10,8 @@ import Title from "./ui/Title";
 import Text from "./ui/Text";
 import StackWrap from "./ui/StackWrap";
 import AnchorLink from "./ui/AnchorLink";
-import chosuleblogimage from "../../../public/img/chosuleblogimage.png"
-import chosuleblogimage2 from "../../../public/img/chosuleblogimage2.png"
+import chosuleblogimage from "../../public/img/chosuleblogimage.png"
+import chosuleblogimage2 from "../../public/img/chosuleblogimage2.png"
 import IconLink from "./ui/IconLink";
 
 const stackItems = [
