@@ -55,8 +55,8 @@ export default function NportVerse() {
   };
   
      return(
-        <div id="nportverse">
-          <Wrap ref={ref} className="flex flex-col md:flex-row ">
+        <div id="nportverse" ref={ref}>
+          {/* <Wrap ref={ref} className="flex flex-col md:flex-row "> */}
               <ImageWrap imageTop={bankonverse} imageBottom={npikasite}/>
               <TextWrap className="flex gap-10">
                   <Title>(주) NPortVerse</Title>
@@ -64,7 +64,7 @@ export default function NportVerse() {
                   <StackWrap stackItems={stackItems}/>
                   <AnchorLink text="Ad_service 📝" href="#adservice"/>
               </TextWrap>
-          </Wrap>
+          {/* </Wrap> */}
         </div>
      )
 }
