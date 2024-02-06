@@ -54,7 +54,7 @@ export default function AdService() {
   };
   
   return (
-    <Wrap id="adservice" ref={ref} className="w-full flex gap-10 flex-col md:flex-row">
+    <Wrap ref={ref} className="w-full flex gap-10 flex-col md:flex-row">
           <ImageWrap imageTop={adservice_1} imageBottom={adservice_2}/>
           <TextWrap>
             <Title>Ad_service</Title>

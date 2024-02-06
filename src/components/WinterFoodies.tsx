@@ -63,7 +63,7 @@ export default function WinterFoodies() {
       };
       
      return(
-        <Wrap id="winterfoodies" ref={ref} className="flex-col md:flex-row ">
+        <Wrap ref={ref} className="flex-col md:flex-row ">
             <ImageWrap imageTop={winterfoodiesImg1} imageBottom={winterfoodiesImg1}/>
             <TextWrap>
               <div className="flex flex-col gap-2">

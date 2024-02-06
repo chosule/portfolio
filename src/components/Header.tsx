@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import heart_icon from "../../../public/img/heart_icon.png";
+import heart_icon from "../../public/img/heart_icon.png";
 import Image from "next/image";
 
 export default function Header() {

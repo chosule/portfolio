@@ -51,7 +51,7 @@ export default function Intro() {
 
   
   return (
-      <Wrap id="intro" className="whitespace-pre-wrap flex-col text-ani pb-32" ref={ref}>
+      <Wrap ref={ref} className="whitespace-pre-wrap flex-col text-ani pb-32">
         <ImQuotesLeft className="text-2xl dark:text-neutral-50"/>
         <Title className="">{`안녕하세요. 프론트엔드 개발자를 꿈꾸고 있는 김초슬입니다. 😀`}</Title>
         <SubTitle className="leading-loose">
