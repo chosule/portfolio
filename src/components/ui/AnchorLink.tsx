@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import gsap from "gsap";
 
 type Props = {
   text: string;
@@ -11,11 +13,31 @@ export default function AnchorLink({ text, href, ...props }: Props) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     delay: 500,
+    threshold: 0.5,
+
   });
+
+  useEffect(() =>{
+    inView ? fadeIn() : fadeOut()
+  },[inView])
+
+  const fadeIn = () => {
+    gsap.to(".ani", {
+      duration: 0.8,
+      y: -3, 
+      ease: "power1.inOut",
+      repeat: 5, 
+      yoyo: true, 
+    });
+  };
+
+  const fadeOut = () => {
+    gsap.to(".ani", { y: 0 });
+  };
 
   return (
     <div ref={ref} className="relative flex gap-1">
-      <Link href={href} className="text-primary font-semibold">
+      <Link href={href} className="text-primary font-semibold ani">
         {text}
       </Link>
       <div className="mt-2.5">

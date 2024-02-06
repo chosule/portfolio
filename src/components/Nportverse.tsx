@@ -34,7 +34,7 @@ export default function NportVerse() {
 
   
   const fadeIn = () => {
-    gsap.to(".articles-fade-in", {
+    gsap.to(".animation", {
       duration: 1,
       opacity: 1,
       y: 0,
@@ -46,7 +46,7 @@ export default function NportVerse() {
   };
 
   const fadeOut = () => {
-    gsap.to(".articles-fade-in", {
+    gsap.to(".animation", {
       duration: 1,
       opacity: 0,
       y: 100,
@@ -55,7 +55,7 @@ export default function NportVerse() {
   };
   
      return(
-          <Wrap id="nportverse" ref={ref} className="flex flex-col md:flex-row ">
+          <Wrap id="nportverse" ref={ref} className="animation flex flex-col md:flex-row ">
               <ImageWrap imageTop={bankonverse} imageBottom={npikasite}/>
               <TextWrap className="flex gap-10">
                   <Title>(주) NPortVerse</Title>

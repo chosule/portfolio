@@ -60,7 +60,7 @@ export default function Blog() {
         <TextWrap>
             <div className="flex flex-col gap-2">
               <Title>Next blog 프로젝트</Title>
-              <IconLink gitLink="#" siteLink="#"/>
+              <IconLink gitLink="https://github.com/chosule/blog_next" siteLink="https://next-blog-delta-lac.vercel.app/"/>
             </div>
             <Text className="leading-loose flex-[0.6]">
               <span className="strong">Next 14 App router</span>를 사용하여 저만의 글을 올릴수 있는 블로그 프로젝트 입니다. 

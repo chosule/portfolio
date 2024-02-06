@@ -33,7 +33,7 @@ export default function AdService() {
   }, [inView]);
 
   const fadeIn = () => {
-    gsap.to(".articles-fade-in", {
+    gsap.to(".animation", {
       duration: 1,
       opacity: 1,
       y: 0,
@@ -45,7 +45,7 @@ export default function AdService() {
   };
 
   const fadeOut = () => {
-    gsap.to(".articles-fade-in", {
+    gsap.to(".animation", {
       duration: 1,
       opacity: 0,
       y: 100,
@@ -54,11 +54,11 @@ export default function AdService() {
   };
   
   return (
-    <Wrap id="adservice" ref={ref} className="w-full flex gap-10 flex-col md:flex-row">
+    <Wrap id="adservice" ref={ref} className="animation w-full flex gap-10 flex-col md:flex-row">
           <ImageWrap imageTop={adservice_1} imageBottom={adservice_2}/>
           <TextWrap>
             <Title>Ad_service</Title>
-            <Text className="articles-fade-in  leading-loose flex-[0.8]">
+            <Text className="leading-loose flex-[0.8]">
               재직중 처음으로 참여한 <span className="strong">협업 프로젝트</span> 입니다. <br/>API 통신이
               <span className="strong">Websocket</span>으로 이루어 지고 있습니다. <br/><span className="strong">실사용되는 코드</span> 에 대해 경험하고 깊게 이해해볼수 있는 값진 시간이였습니다.
             </Text>

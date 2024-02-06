@@ -8,7 +8,6 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ImQuotesLeft } from "react-icons/im";
 import { ImQuotesRight } from "react-icons/im";
-import { useGSAP } from "@gsap/react";
 
 
 export default function Intro() {
@@ -20,7 +19,6 @@ export default function Intro() {
   });
 
   useEffect(() => {
-    console.log('inview',inView)
     inView ? fadeIn() : fadeOut();
   }, [inView]);
 
