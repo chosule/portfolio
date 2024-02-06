@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import Intro from "./componets/Intro";
-import NportVerse from "./componets/Nportverse";
-import AdService from "./componets/Addservice";
-import WinterFoodies from "./componets/WinterFoodies";
-import Blog from "./componets/Blog";
+import Intro from "@/components/Intro";
+import NportVerse from "@/components/Nportverse";
+import AdService from "@/components/Addservice";
+import WinterFoodies from "@/components/WinterFoodies";
+import Blog from "@/components/Blog";
 
 
 export const metadata: Metadata = {
