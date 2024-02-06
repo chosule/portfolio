@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localfont from "next/font/local";
-import Header from "./componets/Header";
+import Header from "@/components/Header";
 
 const nanum = localfont({
   src: "../../public/font/NanumSquareNeoOTF-Rg.otf",

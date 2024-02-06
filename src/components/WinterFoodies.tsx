@@ -8,10 +8,8 @@ import Title from "./ui/Title";
 import Text from "./ui/Text";
 import StackWrap from "./ui/StackWrap";
 import AnchorLink from "./ui/AnchorLink";
-import winterfoodiesImg1 from "../../../public/img/winterfoodiesImg1.png"
+import winterfoodiesImg1 from "../../public/img/winterfoodiesImg1.png"
 import gsap from "gsap";
-import CommentPopup from "./ui/CommentPopup";
-import SubTitle from "./ui/SubTitle";
 import IconLink from "./ui/IconLink";
 import WinterFoodiesComet from "./comment/WinterFoodiesComet";
 
