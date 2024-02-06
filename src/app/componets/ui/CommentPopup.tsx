@@ -1,10 +1,7 @@
 'use client';
 
 import { MouseEventHandler, ReactNode, useEffect, useState } from "react";
-import { AiOutlineComment } from "react-icons/ai";
-import Link from "next/link";
 import Popup from 'reactjs-popup';
-import CustomButton, { CloseBox } from "./CustomButton";
 
 
 export default function CommentPopup({className,children}:React.ComponentProps<'div'>) {
