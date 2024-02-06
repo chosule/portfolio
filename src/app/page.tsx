@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Intro from "@/components/Intro";
 import NportVerse from "@/components/Nportverse";
-import AdService from "@/components/Addservice";
+import AdService from "@/components/Adservice";
 import WinterFoodies from "@/components/WinterFoodies";
 import Blog from "@/components/Blog";
 
