@@ -1,5 +1,5 @@
 import Link from "next/link"
-import {Github,LinkIcon} from "../../../../public/img/LinkIcon"
+import {Github,LinkIcon} from "../../../public/img/LinkIcon"
 
 
 type Props ={
