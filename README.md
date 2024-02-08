@@ -10,7 +10,7 @@
 
 ### 배포 : netlify 
 
-💎 [포트폴리오 보러가기](https://main--chosule-portfolio.netlify.app)
+💎 [포트폴리오 보러가기](https://chosule-portfolio.vercel.app/)
 
 
 ## Issue
