@@ -74,7 +74,7 @@ export default function WinterFoodies() {
     <Wrap
       id="winterfoodies"
       ref={ref}
-      className="articles-fade-in md:grid-cols-2 items-center grid-cols-1"
+      className="articles-fade-in md:grid-cols-2 items-center grid-cols-1 h-full"
     >
       <ImageWrap imageTop={winterfoodiesImg1} imageBottom={winterfoodiesImg1} />
       <TextWrap>

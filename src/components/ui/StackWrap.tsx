@@ -12,7 +12,7 @@ export default function StackWrap({
   return (
     <div className="flex gap-3 flex-wrap">
       {stackItems.map((item, index) => (
-        <div key={index}>
+        <div key={index} className="flex gap-3 flex-wrap">
           <p
             className={`${item.color} ${item.bgColor} py-1 rounded-lg text-center text-xs md:text-xs drop-shadow-md px-2 font-medium `}
           >

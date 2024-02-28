@@ -63,7 +63,7 @@ export default function Blog() {
     <Wrap
       id="chosuleblog"
       ref={ref}
-      className="articles-fade-in md:grid-cols-2 items-center grid-cols-1"
+      className="articles-fade-in md:grid-cols-2 items-center grid-cols-1 h-full"
     >
       <ImageWrap imageTop={chosuleblogimage2} imageBottom={chosuleblogimage} />
       <TextWrap>

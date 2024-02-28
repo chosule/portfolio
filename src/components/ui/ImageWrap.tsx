@@ -12,9 +12,7 @@ const SiteImgs = [{}];
 
 export default function ImageWrap({ imageTop, imageBottom, className }: Props) {
   return (
-    <div
-      className={`flex flex-col gap-8 relative h-[50vh] md:h-full ${className}`}
-    >
+    <div className={`flex flex-col gap-8 relative md:h-full ${className}`}>
       <Image
         className={`absolute z-[1] drop-shadow-lg right-0 top-[50%]`}
         src={imageTop}
@@ -22,7 +20,7 @@ export default function ImageWrap({ imageTop, imageBottom, className }: Props) {
         width={350}
       />
       <Image
-        className="absolute z-0 drop-shadow-lg top-[50%] transform translate-y-[-50%]"
+        className="inherit z-0 drop-shadow-lg top-[50%] transform translate-y-[-50%] hidden md:block md:absolute"
         src={imageBottom}
         alt="이미지2"
         width={450}
