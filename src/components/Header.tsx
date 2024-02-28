@@ -25,13 +25,13 @@ export default function Header() {
   }, []); //
 
   return (
-    <header className="relative h-8">
+    <header className="relative md:h-8 h-20">
       <div
         className={`fixed left-1/2 z-10 h-20 w-full ${
           scrolled ? "backdrop-blur" : "bg-primary"
         } -translate-x-1/2 transform shadow-md`}
       ></div>
-      <nav className="fixed left-1/2 z-20 flex w-full max-w-[1200px] -translate-x-1/2 transform py-6 gap-36 pl-4 pr-4 md:pl-0 md:pr-0">
+      <nav className="fixed left-1/2 z-20 flex w-full max-w-[1200px] -translate-x-1/2 transform py-6 gap-36 md:px-5 md:pl-0 md:pr-0 pl-5 pr-20">
         <ul className="flex justify-between w-full h-full items-center">
           <li>
             <Link href="#" target="_blank">

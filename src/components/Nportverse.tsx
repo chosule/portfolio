@@ -55,7 +55,7 @@ export default function NportVerse() {
     <Wrap
       id="nportverse"
       ref={ref}
-      className="animation md:grid-cols-2 items-center grid-cols-1"
+      className="animation md:grid-cols-2 items-center grid-cols-1 h-full"
     >
       <ImageWrap imageTop={bankonverse} imageBottom={npikasite} />
       <TextWrap className="flex gap-10">

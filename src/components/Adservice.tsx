@@ -59,7 +59,7 @@ export default function AdService() {
     <Wrap
       id="adservice"
       ref={ref}
-      className="w-full gap-10 articles-fade-in md:grid-cols-2 items-center grid-cols-1 h-full"
+      className="w-full gap-10 articles-fade-in md:grid-cols-2 items-center grid-cols-1 "
     >
       <ImageWrap imageTop={adservice_1} imageBottom={adservice_2} />
       <TextWrap>

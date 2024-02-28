@@ -63,9 +63,9 @@ export default function Blog() {
     <Wrap
       id="chosuleblog"
       ref={ref}
-      className="articles-fade-in md:grid-cols-2 items-center grid-cols-1 h-full"
+      className="articles-fade-in md:grid-cols-2 items-center grid-cols-1"
     >
-      <ImageWrap imageTop={chosuleblogimage} imageBottom={chosuleblogimage2} />
+      <ImageWrap imageTop={chosuleblogimage2} imageBottom={chosuleblogimage} />
       <TextWrap>
         <div className="flex gap-3 items-center">
           <Title>Next blog 프로젝트</Title>

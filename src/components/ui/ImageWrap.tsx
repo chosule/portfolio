@@ -10,25 +10,19 @@ type Props = {
 
 const SiteImgs = [{}];
 
-export default function ImageWrap({
-  imageTop,
-  imageBottom,
-  top = "100px",
-  left = "3%",
-  className,
-}: Props) {
+export default function ImageWrap({ imageTop, imageBottom, className }: Props) {
   return (
     <div
       className={`flex flex-col gap-8 relative h-[50vh] md:h-full ${className}`}
     >
       <Image
-        className={`absolute top-[${top}] left-[${left}] z-10`}
+        className={`absolute z-[1] drop-shadow-lg right-0 top-[50%]`}
         src={imageTop}
         alt="이미지1"
-        width={300}
+        width={350}
       />
       <Image
-        className="absolute bottom-[10%] right-0 z-0"
+        className="absolute z-0 drop-shadow-lg top-[50%] transform translate-y-[-50%]"
         src={imageBottom}
         alt="이미지2"
         width={450}
