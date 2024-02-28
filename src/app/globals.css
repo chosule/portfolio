@@ -17,8 +17,6 @@ body {
   background: var(--color-bg-primary);
 }
 
-
-
 h1,
 h2,
 h3,
@@ -44,12 +42,9 @@ a {
   margin: 0;
 }
 
-
-.strong{
+.strong {
   @apply bg-neutral-150 rounded-md p-1 dark:text-neutral-500 bg-neutral-350;
 }
-
-
 
 .tail {
   transition: stroke-dashoffset 0.5s linear 1s;
@@ -64,6 +59,10 @@ a {
   stroke-dashoffset: 15.81138801574707;
 }
 
-.popup-overlay{
+.popup-overlay {
   background-color: #00000087;
+}
+
+.contact-me-shadow {
+  box-shadow: 0px 2px 140px #d9d9d9, -20px -19px 20px 0px #ffffff;
 }
