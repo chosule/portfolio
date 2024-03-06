@@ -9,6 +9,7 @@ import Text from "./ui/Text";
 import StackWrap from "./ui/StackWrap";
 import AnchorLink from "./ui/AnchorLink";
 import winterfoodiesImg1 from "../../public/img/winterfoodiesImg1.png";
+import winterfoodiesImg2 from "../../public/img/winterfoodiesImg2.png";
 import gsap from "gsap";
 import IconLink from "./ui/IconLink";
 import WinterFoodiesComet from "./comment/WinterFoodiesComet";
@@ -76,7 +77,7 @@ export default function WinterFoodies() {
       ref={ref}
       className="articles-fade-in md:grid-cols-2 items-center grid-cols-1 h-full"
     >
-      <ImageWrap imageTop={winterfoodiesImg1} imageBottom={winterfoodiesImg1} />
+      <ImageWrap imageTop={winterfoodiesImg1} imageBottom={winterfoodiesImg2} />
       <TextWrap>
         <div className="flex gap-3 items-center">
           <Title>WinterFoodies 사이드 프로젝트</Title>
