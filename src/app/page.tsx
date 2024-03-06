@@ -16,10 +16,10 @@ export default function PortfolioPage() {
     <>
       <div className="relative w-full px-10">
         <Intro />
-        <NportVerse />
-        <AdService />
-        <WinterFoodies />
         <Blog />
+        <WinterFoodies />
+        <AdService />
+        <NportVerse />
         <ContactMe />
       </div>
     </>
