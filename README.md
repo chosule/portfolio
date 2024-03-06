@@ -8,7 +8,7 @@
   npm run dev
 ```
 
-### 배포 : netlify 
+### 배포 : vercel 
 
 💎 [포트폴리오 보러가기](https://chosule-portfolio.vercel.app/)
 
