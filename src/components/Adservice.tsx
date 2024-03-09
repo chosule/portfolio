@@ -74,7 +74,7 @@ export default function AdService() {
           이해해볼수 있는 값진 시간이였습니다.
         </Text>
         <StackWrap stackItems={stackItems} />
-        <AnchorLink text="WinterFoodies 📝" href="#winterfoodies" />
+        <AnchorLink text="Nportverse 📝" href="#nportverse" />
       </TextWrap>
     </Wrap>
   );

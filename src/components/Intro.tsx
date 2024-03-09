@@ -56,7 +56,7 @@ export default function Intro() {
         프론트엔드 개발자에게 있어 중요하다고 생각합니다.
       </SubTitle>
       <ImQuotesRight className="text-2xl dark:text-neutral-50 place-self-end" />
-      <AnchorLink text="포트폴리오 보기📝" href="#nportverse" />
+      <AnchorLink text="포트폴리오 보기📝" href="#chosuleblog" />
     </Wrap>
   );
 }

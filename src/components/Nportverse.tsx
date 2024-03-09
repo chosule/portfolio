@@ -67,7 +67,7 @@ export default function NportVerse() {
           보수를 담당 했습니다.
         </Text>
         <StackWrap stackItems={stackItems} />
-        <AnchorLink text="Ad_service 📝" href="#adservice" />
+        <AnchorLink text="ContactMe 👇🏻" href="#contactMe" />
       </TextWrap>
     </Wrap>
   );

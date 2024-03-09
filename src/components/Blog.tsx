@@ -88,7 +88,7 @@ export default function Blog() {
           노력하였습니다.
         </Text>
         <StackWrap stackItems={stackItems} />
-        <AnchorLink text="contact Me 💎" href="#contactMe" />
+        <AnchorLink text="Winterfoodies 📝" href="#winterfoodies" />
       </TextWrap>
     </Wrap>
   );

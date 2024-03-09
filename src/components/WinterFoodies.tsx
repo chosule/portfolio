@@ -95,7 +95,7 @@ export default function WinterFoodies() {
           수있도록 구성했습니다.
         </Text>
         <StackWrap stackItems={stackItems} />
-        <AnchorLink text="Next blog 📝" href="#chosuleblog" />
+        <AnchorLink text="Ad service 📝" href="#adservice" />
       </TextWrap>
     </Wrap>
   );
