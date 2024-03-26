@@ -16,7 +16,7 @@ export const Wrap = forwardRef(
         className={`relative flex items-center justify-center my-14 md:my-0  h-screen`}
         {...rest}
       >
-        <div className={`grid gap-8 ${className}`}>{children}</div>
+        <div className={`grid md:gap-8 gap-4 ${className}`}>{children}</div>
       </section>
     );
   }

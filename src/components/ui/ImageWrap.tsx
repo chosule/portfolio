@@ -4,17 +4,19 @@ type Props = {
   imageTop: StaticImageData;
   imageBottom: StaticImageData;
   className?: string;
-  top?: string;
-  left?: string;
+  right?: string;
 };
 
-const SiteImgs = [{}];
-
-export default function ImageWrap({ imageTop, imageBottom, className }: Props) {
+export default function ImageWrap({
+  imageTop,
+  imageBottom,
+  className,
+  right,
+}: Props) {
   return (
     <div className={`flex flex-col gap-8 relative md:h-full ${className}`}>
       <Image
-        className={`absolute z-[1] drop-shadow-lg right-0 top-[50%]`}
+        className={`absolute z-[1] drop-shadow-lg right-0 top-[50%] ${right}`}
         src={imageTop}
         alt="이미지1"
         width={350}

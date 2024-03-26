@@ -70,6 +70,7 @@ export default function Blog() {
         <div className="flex gap-3 items-center">
           <Title>Next blog 프로젝트</Title>
           <IconLink
+            siteLinkDisplay
             gitLink="https://github.com/chosule/blog_next"
             siteLink="https://chosule-blog.vercel.app/"
           />

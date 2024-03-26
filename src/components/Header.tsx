@@ -31,7 +31,7 @@ export default function Header() {
           scrolled ? "backdrop-blur" : "bg-primary"
         } -translate-x-1/2 transform shadow-md`}
       ></div>
-      <nav className="fixed left-1/2 z-20 flex w-full max-w-[1200px] -translate-x-1/2 transform py-6 gap-36 md:px-5 md:pl-0 md:pr-0 pl-5 pr-20">
+      <nav className="fixed left-1/2 z-20 flex w-full max-w-[1200px] -translate-x-1/2 transform py-6 gap-36 md:px-5 md:pl-0 md:pr-0 pl-5 pr-3">
         <ul className="flex justify-between w-full h-full items-center">
           <li>
             <Link href="#" target="_blank">

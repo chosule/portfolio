@@ -81,12 +81,9 @@ export default function WinterFoodies() {
       <TextWrap>
         <div className="flex gap-3 items-center">
           <Title>WinterFoodies 사이드 프로젝트</Title>
-          <IconLink
-            gitLink="https://github.com/chosule/winter_foodies"
-            siteLink="#"
-          />
+          <IconLink gitLink="https://github.com/chosule/winter_foodies" />
         </div>
-        <WinterFoodiesComet />
+        {/* <WinterFoodiesComet /> */}
         <Text className="leading-loose flex-[0.8]">
           백엔드 1명과 프론트 개발 1명(저) , 총 두명으로 이루어진 <br />
           <span className="strong">포트폴리오용 사이드 프로젝트</span> 입니다.

@@ -7,7 +7,7 @@ export default function Text({
 }) {
   return (
     <p
-      className={`text-primary text-sm whitespace-pre-wrap md:text-base ${className}`}
+      className={`text-primary text-sm whitespace-pre-wrap md:text-base  ${className}`}
     >
       {children}
     </p>

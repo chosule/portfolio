@@ -5,6 +5,7 @@ import AdService from "@/components/Adservice";
 import WinterFoodies from "@/components/WinterFoodies";
 import Blog from "@/components/Blog";
 import ContactMe from "@/components/ContactMe";
+import Hobbyloop from "@/components/Hobbyloop";
 
 export const metadata: Metadata = {
   title: "portfolio chosule",
@@ -16,6 +17,7 @@ export default function PortfolioPage() {
     <>
       <div className="relative w-full px-10">
         <Intro />
+        <Hobbyloop />
         <Blog />
         <WinterFoodies />
         <AdService />
