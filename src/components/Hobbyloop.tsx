@@ -75,8 +75,9 @@ export default function Hobbyloop() {
         right="md:right-[96px]"
       />
       <TextWrap>
-        <div>
+        <div className="flex gap-2 items-center">
           <Title>Hobbyloop 실서비스 프로젝트</Title>
+          <IconLink gitLink="https://github.com/hobbyloop/hobbyloop-webF" />
         </div>
         <Text>
           좋은 기회로 실서비스화 되는 프로젝트에 들어가게되었습니다. <br />
